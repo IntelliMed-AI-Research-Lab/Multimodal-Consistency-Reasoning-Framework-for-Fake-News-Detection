@@ -48,14 +48,14 @@ The notebook also produces:
 This project uses the **Fakeddit** multimodal dataset (Reddit posts with text, image, and 6-way fine-grained labels), downloaded automatically via [`kagglehub`](https://github.com/Kaggle/kagglehub) (`vanshikavmittal/fakeddit-dataset`). No manual download is required — the notebook handles fetching, caching, and image downloading.
 
 ## 📁 Repository Structure
-.
+'
 ├── notebooks/
 │ └── Fake_News_Paper_Code.ipynb # Full end-to-end pipeline (data → training → fusion → consistency reasoning)
 ├── outputs/ # Generated results (CSVs, figures) — populated after running
 ├── checkpoints/ # Saved model weights — populated after running
 ├── requirements.txt
 └── README.md
-
+'
 
 > **Note:** if the notebook filename in your repo differs from `Fake_News_Paper_Code.ipynb` (e.g. after recent updates), update this path accordingly so it matches what you actually push.
 
